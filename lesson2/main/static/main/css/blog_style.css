@@ -1,0 +1,10 @@
+.card:hover {
+            background-color: #FFFACD;
+            color: #191970;
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+.card img {
+            width: 300px;
+            object-fit: cover;
+        }

@@ -1,0 +1,56 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+    {% block title %}
+        World Wise Traveller - Блог
+    {% endblock %}
+    {% block style %}
+        <link rel="stylesheet" href="{% static 'main/css/blog_style.css' %}">
+    {% endblock %}
+    {% block content %}
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-4">
+                        <img src="{% static 'main/img/img1.jpg' %}" class="card-img-top" alt="10 Невероятных Мест">
+                        <div class="card-body">
+                            <h5 class="card-title">10 Невероятных Мест, Которые Стоит Посетить в 2024 Году</h5>
+                            <p class="card-text">Откройте для себя удивительные места, которые обязательно нужно посетить в 2024 году!...</p>
+                            <a href="#" class="btn btn-secondary btn-sm">Подробнее...</a>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="{% static 'main/img/img2.jpg' %}" class="card-img-top" alt="Гастрономический Туризм">
+                        <div class="card-body">
+                            <h5 class="card-title">Гастрономический Туризм: Вкуснейшие Направления для Гурманов</h5>
+                            <p class="card-text">Исследуйте лучшие гастрономические направления и наслаждайтесь вкуснейшими блюдами со всего мира...</p>
+                            <a href="#" class="btn btn-secondary btn-sm">Подробнее...</a>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="{% static 'main/img/img3.jpg' %}" class="card-img-top" alt="Экзотические Пляжи Азии">
+                        <div class="card-body">
+                            <h5 class="card-title">Экзотические Пляжи Азии: Лучшие Места для Релаксации</h5>
+                            <p class="card-text">Найдите самые лучшие экзотические пляжи Азии для идеального отдыха и релаксации...</p>
+                            <a href="#" class="btn btn-secondary btn-sm">Подробнее...</a>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="{% static 'main/img/img4.jpg' %}" class="card-img-top" alt="Роскошные Курорты">
+                        <div class="card-body">
+                            <h5 class="card-title">Роскошные Курорты: Где Провести Незабываемый Отпуск</h5>
+                            <p class="card-text">Откройте для себя роскошные курорты, где можно провести незабываемый отпуск и насладиться первоклассным сервисом...</p>
+                            <a href="#" class="btn btn-secondary btn-sm">Подробнее...</a>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="{% static 'main/img/img5.jpg' %}" class="card-img-top" alt="Маленькие Городки Европы">
+                        <div class="card-body">
+                            <h5 class="card-title">Маленькие Городки Европы: Скрытые Жемчужины, Которые Вы Не Знали</h5>
+                            <p class="card-text">Исследуйте малоизвестные маленькие городки Европы и откройте для себя их уникальное очарование...</p>
+                            <a href="#" class="btn btn-secondary btn-sm">Подробнее...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
